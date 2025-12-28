@@ -1,0 +1,9 @@
+
+Entities:
+- SourceDatabase
+- TargetDatabase
+- MigrationLog
+
+Relationships:
+SourceDatabase -> MigrationLog
+TargetDatabase -> MigrationLog

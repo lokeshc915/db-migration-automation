@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: DB Migration API
+  version: 1.0.0
+paths:
+  /api/migration/run:
+    post:
+      summary: Run DB migration
+      responses:
+        '200':
+          description: Migration started
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: OK
