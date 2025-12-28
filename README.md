@@ -13,5 +13,8 @@ mvn spring-boot:run
 
 ## APIs
 
+run as java application with main method
+DBMigrationAppStartupRunner is directly calling the service and get the meta data of the db
+
 -   POST /api/migration/run
 -   GET /health
